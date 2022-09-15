@@ -44,7 +44,7 @@ while code_is_on:
     if start == "encode" or start == "decode":
         msg = input("Please type message in plain text: ").lower()
         num = int(input("please type for secret code shift number: "))
-        num = num % 26
+        num = num % 30
         print(run_code(start, msg, num))
 
 
